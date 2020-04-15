@@ -1,0 +1,50 @@
+[   
+    {
+    "name":"accordion",
+    "sortDescription":"这是一个手风琴组件",
+    "description":"这是一个手风琴组件，他支持自定义模板...+api文档地址",
+    "全局属性名称":"比如DragScope等,没有就写为空",
+    "globalAttrSet":[],
+    "Attributes":[
+        {
+            "name":"column",
+            "是否是元素":"例如:d-cloumm 是 d-datatable里面的子元素，注意子元素不含有元素的其他属性，并在元素集里面添加",
+            "innerElement":true
+        },{
+
+            "name":"data",
+
+            "innerElement":false,
+
+            "type":"Array<any> 或 AccordionMenuType",
+
+            "默认值":"您可以输入默认值 注意：必要的属性默认值均为None,非必要属性默认值为default ,您也可以手动设置",
+            "defaultValue":"None",
+            
+            "isNecessary":true,
+
+            "描述":"提供一段描述，默认为描述的第一个逗号之前的内容。如果这个数性含有穷举值，且穷举值拥有文字提示，那么请使用如下的描述方式：routerLink:路由场景,hrefLink:外部链接场景；dependOnLinkTypeKey:动态路由或外部链接场景;",
+            "description":"数据源，可以自定义数组或者使用预设的`AccordionMenuType`",
+
+            "简述":"提供一段简短的描述，默认为描述的第一个逗号之前的内容。您也可以自定义",
+            "sortDescription":"数据源",
+            
+            "是事件吗？":"这决定了您的提示默认是被[]还是()包裹",
+            "isEvent":false,
+            
+            "值集合":"这个属性有值集合吗 常见的如bsStyle,它应该为[alert,info]等",
+            "valueSet":[],
+            
+            "如果这个属性有valueSet，那么它支持图片显示吗？":"例如 bsStyle 可能支持图片显示，而RouterLink支持的是文字显示",
+            "supportImg":true
+
+        
+        },{
+            "...":"..."
+        }
+    ]
+    },
+    {
+        "...":"..."
+    }
+]
